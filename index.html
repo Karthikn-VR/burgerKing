@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King - Home of the Whopper</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.theme.min.css" rel="stylesheet">
+    <link href="https://ai-public.creatie.ai/gen_page/tailwind-custom.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/glide.min.js"></script>
+    <script
+        src="https://cdn.tailwindcss.com/3.4.5?plugins=forms@0.5.7,typography@0.5.13,aspect-ratio@0.4.2,container-queries@0.1.1"></script>
+    <script src="https://ai-public.creatie.ai/gen_page/tailwind-config.min.js" data-color="#000000"
+        data-border-radius="small"></script>
+</head>
+
+<body class="font-['Montserrat'] bg-gray-50">
+    <header class="bg-white shadow-sm fixed w-full z-50">
+        <div class="max-w-8xl mx-auto">
+            <div class="flex items-center justify-between px-6 py-4">
+                <div class="flex items-center gap-8">
+                    <a href="/" class="flex-shrink-0"> <img src="logo.png" alt="Burger King" class="h-12">
+                    </a>
+                    <nav class="hidden lg:flex items-center gap-8">
+                        <a href="#" class="text-gray-700 hover:text-custom font-medium">Menu</a>
+                        <a href="#" class="text-gray-700 hover:text-custom font-medium">Locations</a>
+                        <a href="#" class="text-gray-700 hover:text-custom font-medium">Deals</a>
+                        <a href="#" class="text-gray-700 hover:text-custom font-medium">Delivery</a>
+                        <a href="#" class="text-gray-700 hover:text-custom font-medium">Rewards</a>
+                    </nav>
+                </div>
+                <div class="flex items-center gap-6">
+                    <div class="hidden lg:flex items-center gap-2 bg-gray-100 px-4 py-2 rounded-button"> <i
+                            class="fas fa-search text-gray-400"></i>
+                        <input type="text" placeholder="Search menu items..."
+                            class="bg-transparent border-none focus:ring-0 text-sm w-48">
+                    </div>
+                    <button class="!rounded-button bg-custom text-white px-6 py-2 font-medium hover:bg-custom/90">Sign
+                        In</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <div class="glide relative">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="relative h-[600px]">
+                            <img src="home burger.jpg" class="w-full h-full object-cover" alt="Whopper">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-r from-black/60 to-transparent flex items-center">
+                                <div class="max-w-8xl mx-auto px-6 w-full">
+                                    <div class="max-w-lg">
+                                        <h1 class="text-5xl font-bold text-white mb-6">The Legendary Whopper</h1>
+                                        <p class="text-xl text-white mb-8">Flame-grilled beef topped with juicy
+                                            tomatoes, fresh lettuce, creamy mayonnaise, ketchup, crunchy pickles, and
+                                            sliced onions on a soft sesame seed bun.</p> <button
+                                            class="!rounded-button bg-custom text-white px-8 py-3 font-medium hover:bg-custom/90">Order
+                                            Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="absolute bottom-6 w-full" data-glide-el="controls[nav]">
+                <div class="flex justify-center gap-2">
+                    <button class="w-2 h-2 rounded-full bg-white/50" data-glide-dir="=0"></button>
+                    <button class="w-2 h-2 rounded-full bg-white/50" data-glide-dir="=1"></button>
+                    <button class="w-2 h-2 rounded-full bg-white/50" data-glide-dir="=2"></button>
+                </div>
+            </div>
+        </div>
+
+        <section class="py-16 bg-white">
+            <div class="max-w-8xl mx-auto px-6">
+                <h2 class="text-3xl font-bold text-gray-900 mb-12 text-center">Featured Menu Items</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div class="group">
+                        <div class="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden bg-gray-100"> <img src="double.jpg"
+                                class="object-cover group-hover:scale-105 transition-transform duration-300"
+                                alt="Double Cheeseburger"> </div>
+                        <div class="mt-4">
+                            <h3 class="text-lg font-semibold text-gray-900">Double Cheeseburger</h3>
+                            <p class="text-gray-600 mt-1">Two flame-grilled patties with cheese</p>
+                            <p class="text-custom font-medium mt-2">$5.99</p>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden bg-gray-100"> <img
+                                src="chicken nug.jpg"
+                                class="object-cover group-hover:scale-105 transition-transform duration-300"
+                                alt="Chicken Nuggets"> </div>
+                        <div class="mt-4">
+                            <h3 class="text-lg font-semibold text-gray-900">Chicken Nuggets</h3>
+                            <p class="text-gray-600 mt-1">8 pieces of crispy nuggets</p>
+                            <p class="text-custom font-medium mt-2">$4.99</p>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden bg-gray-100"> <img
+                                src="french fire.jpg"
+                                class="object-cover group-hover:scale-105 transition-transform duration-300"
+                                alt="French Fries"> </div>
+                        <div class="mt-4">
+                            <h3 class="text-lg font-semibold text-gray-900">French Fries</h3>
+                            <p class="text-gray-600 mt-1">Hot, crispy, and golden</p>
+                            <p class="text-custom font-medium mt-2">$2.99</p>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <div class="aspect-w-1 aspect-h-1 rounded-lg overflow-hidden bg-gray-100"> <img src="shake.jpg"
+                                class="object-cover group-hover:scale-105 transition-transform duration-300"
+                                alt="Chocolate Shake"> </div>
+                        <div class="mt-4">
+                            <h3 class="text-lg font-semibold text-gray-900">Chocolate Shake</h3>
+                            <p class="text-gray-600 mt-1">Rich and creamy</p>
+                            <p class="text-custom font-medium mt-2">$3.99</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-8xl mx-auto px-6">
+                <h2 class="text-3xl font-bold text-gray-900 mb-12 text-center">Special Offers</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white rounded-lg overflow-hidden shadow-sm"> <img src="value meal.jpg"
+                            class="w-full h-48 object-cover" alt="Value Meal">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900">Value Meal Deal</h3>
+                            <p class="text-gray-600 mt-2">Get a Whopper, fries, and drink for just $8.99</p>
+                            <button
+                                class="!rounded-button bg-custom text-white px-6 py-2 mt-4 w-full font-medium hover:bg-custom/90">Order
+                                Now</button>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg overflow-hidden shadow-sm"> <img src="2 of 1.jpg"
+                            class="w-full h-48 object-cover" alt="2 for 1">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900">2 for 1 Burgers</h3>
+                            <p class="text-gray-600 mt-2">Buy one burger, get one free every Tuesday</p>
+                            <button
+                                class="!rounded-button bg-custom text-white px-6 py-2 mt-4 w-full font-medium hover:bg-custom/90">Learn
+                                More</button>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg overflow-hidden shadow-sm"> <img src="free del.jpg"
+                            class="w-full h-48 object-cover" alt="App Delivery">
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-gray-900">Free Delivery</h3>
+                            <p class="text-gray-600 mt-2">Free delivery on your first app order</p>
+                            <button
+                                class="!rounded-button bg-custom text-white px-6 py-2 mt-4 w-full font-medium hover:bg-custom/90">Download
+                                App</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-16 bg-white">
+            <div class="max-w-8xl mx-auto px-6">
+                <div class="bg-custom rounded-lg overflow-hidden">
+                    <div class="grid grid-cols-1 lg:grid-cols-2">
+                        <div class="p-12 lg:p-16 flex flex-col justify-center">
+                            <h2 class="text-4xl font-bold text-white mb-6">Join BK Rewards</h2>
+                            <p class="text-white/90 text-lg mb-8">Sign up today and start earning points with every
+                                order. Get exclusive deals and free food!</p>
+                            <div class="flex flex-col sm:flex-row gap-4"> <input type="email"
+                                    placeholder="Enter your email"
+                                    class="flex-1 !rounded-button px-4 py-3 border-white/20 bg-white/10 text-white placeholder-white/60 focus:ring-white/30">
+                                <button
+                                    class="!rounded-button bg-white text-custom px-8 py-3 font-medium hover:bg-white/90">Sign
+                                    Up Now</button> </div>
+                        </div>
+                        <div class="hidden lg:block relative h-full min-h-[400px]"> <img src="mobile.jpg"
+                                class="absolute inset-0 w-full h-full object-cover" alt="BK Rewards"> </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="max-w-8xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div>
+                    <h3 class="font-semibold text-lg mb-4">About BK</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Careers</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Press</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Franchising</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-4">Support</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contact Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">FAQ</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Nutrition Info</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Restaurant Feedback</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-4">Legal</h3>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Terms & Conditions</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Accessibility</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Legal Notices</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-lg mb-4">Connect With Us</h3>
+                    <div class="flex gap-4">
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white text-xl"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="mt-6">
+                        <h4 class="font-semibold mb-3">Download Our App</h4>
+                        <div class="flex gap-3">
+                            <a href="#" class="bg-white/10 hover:bg-white/20 rounded-button px-4 py-2"> <i
+                                    class="fab fa-apple mr-2"></i>
+                                App Store
+                            </a> <a href="#" class="bg-white/10 hover:bg-white/20 rounded-button px-4 py-2">
+                                <i class="fab fa-google-play mr-2"></i>
+                                Play Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Burger King Corporation. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        new Glide('.glide', {
+            type: 'carousel',
+            autoplay: 5000,
+            animationDuration: 600,
+            gap: 0,
+            perView: 1
+        }).mount();
+    </script>
+</body>
+
+</html>
